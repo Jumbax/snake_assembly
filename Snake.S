@@ -103,16 +103,11 @@ draw_player:
                     TAY
                     LDA #1
                     STA player_pos, Y
-                    
                     STY momentary_value
-                
                     LDA #1
                     STA player_pos, Y
-                    
-                    
                     LDY y_value
                     INY
-                    
                     LDA momentary_value
                     STA body_memory, Y
 
