@@ -5,14 +5,14 @@
 .define player_pos $0200
 .define command_address $4000
 .define food_pos $0200
-.define last_command $0000
-.define body_part_number $0001
-.define x_value $0002
-.define y_value $0003
-.define offset_movement $0004
-.define momentary_value $0005
-.define seed $0006
-.define counter $0007
+.define last_command $00
+.define body_part_number $01
+.define x_value $02
+.define y_value $03
+.define offset_movement $04
+.define momentary_value $05
+.define seed $06
+.define counter $07
 .define body_part_direction $0010
 .define body_memory $0100
 .ORG $8000
