@@ -371,11 +371,11 @@ generate_random_num:
         RTS
     
 
-get_vsync:
-RTI
+nmi:
+    RTI
 
 
 .goto $FFFA
-.dw get_vsync
+.dw nmi
 .dw start 
 .dw start
